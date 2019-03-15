@@ -1,5 +1,5 @@
 #!/bin/sh
-filename="data08-addsubmission-EXP101.txt"
+filename="data09-addsubmission-EXP102.txt"
 d="experimental_101"
 echo "d =" $d
 touch $filename

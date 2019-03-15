@@ -1,0 +1,214 @@
+====[START]=== t = mdl_user
+id	auth	confirmed	policyagreed	deleted	suspended	mnethostid	username	password	idnumber	firstname	lastname	email	emailstop	icq	skype	yahoo	aim	msn	phone1	phone2	institution	department	address	city	country	lang	calendartype	theme	timezone	firstaccess	lastaccess	lastlogin	currentlogin	lastip	secret	picture	url	description	descriptionformat	mailformat	maildigest	maildisplay	autosubscribe	trackforums	timecreated	timemodified	trustbitmask	imagealt	lastnamephonetic	firstnamephonetic	middlename	alternatename
+1	manual	1	0	0	0	1	guest	$2y$10$6Cbxs8RI.a7cva.t9I58C./9d41ytZfvWZfM9nhwkPX6C.QqL2Egy		Guest user	 	root@localhost	0													en	gregorian		99	0	0	0	0			0		This user is a special user that allows read-only access to some courses.	1	1	0	2	1	0	0	1552595874	0	NULL	NULL	NULL	NULL	NULL
+2	manual	1	0	0	0	1	root	$2y$10$nsEpdq.CB8hps2IBa9IdiOS5oh8G4Ob0WUnO98j6LZq0X4E29gs1W		Super	Administrator	kictm@staf.uitm.edu.my	0													en	gregorian		99	1552597886	1552646293	1552597886	1552645130	192.168.150.1		0			1	1	0	1	1	0	0	1552598086	0	NULL				
+3	manual	1	0	0	0	1	teacher1	$2y$10$urMYTfqPGnelpd8WB9SIh.CRZj1dd9YBa2GDE0Kix8kw/RHSpdGta		T	O	t@O.com	0												MY	en	gregorian		99	0	0	0	0			0			1	1	0	2	1	0	1552645213	1552645213	0					
+4	manual	1	0	0	0	1	student1	$2y$10$U4K9LKVNSDXopuHxjT.5Ge3wZg9RidyVNGBCiCHfv.56xLToLs8gO		S	O	s@o.com	0												MY	en	gregorian		99	0	0	0	0			0			1	1	0	2	1	0	1552645351	1552645351	0					
++++++[END]++++ t = mdl_user
+
+====[START]=== t = mdl_course
+id	category	sortorder	fullname	shortname	idnumber	summary	summaryformat	format	showgrades	newsitems	startdate	enddate	marker	maxbytes	legacyfiles	showreports	visible	visibleold	groupmode	groupmodeforce	defaultgroupingid	lang	calendartype	theme	timecreated	timemodified	requested	enablecompletion	completionnotify	cacherev
+1	0	1	Experimental 101	XP			0	site	1	3	0	0	0	0	0	0	1	1	0	0	0				1552595874	1552598151	0	0	0	1552595893
+2	1	10002	EXP101 - First Course	EXP101			1	topics	1	5	1552665600	1584201600	0	0	0	0	1	1	0	0	0				1552645475	1552645475	0	0	0	1552645855
+3	1	10001	EXP102 - Second Course	EXP102			1	topics	1	5	1552665600	1584201600	0	0	0	0	1	1	0	0	0				1552645634	1552645634	0	0	0	1552646313
++++++[END]++++ t = mdl_course
+
+====[START]=== t = mdl_assign
+id	course	name	intro	introformat	alwaysshowdescription	nosubmissions	submissiondrafts	sendnotifications	sendlatenotifications	duedate	allowsubmissionsfromdate	grade	timemodified	requiresubmissionstatement	completionsubmit	cutoffdate	teamsubmission	requireallteammemberssubmit	teamsubmissiongroupingid	blindmarking	revealidentities	attemptreopenmethod	maxattempts	markingworkflow	markingallocation	sendstudentnotifications	preventsubmissionnotingroup
+1	2	Submission FYP		1	1	0	0	0	0	1553184000	1552579200	100	1552645853	0	0	0	0	0	0	0	0	none	-1	0	0	1	0
+2	3	BBBBBB		1	1	0	0	0	0	1553184000	1552579200	100	1552646311	0	0	0	0	0	0	0	0	none	-1	0	0	1	0
++++++[END]++++ t = mdl_assign
+
+====[START]=== t = mdl_assign_user_flags
++++++[END]++++ t = mdl_assign_user_flags
+
+====[START]=== t = mdl_assign_user_mapping
++++++[END]++++ t = mdl_assign_user_mapping
+
+====[START]=== t = mdl_assignment_upgrade
++++++[END]++++ t = mdl_assignment_upgrade
+
+====[START]=== t = mdl_block_instances
+id	blockname	parentcontextid	showinsubcontexts	requiredbytheme	pagetypepattern	subpagepattern	defaultregion	defaultweight	configdata
+1	admin_bookmarks	1	0	0	admin-*	NULL	side-pre	2	
+2	private_files	1	0	0	my-index	2	side-post	0	
+3	online_users	1	0	0	my-index	2	side-post	1	
+4	badges	1	0	0	my-index	2	side-post	2	
+5	calendar_month	1	0	0	my-index	2	side-post	3	
+6	calendar_upcoming	1	0	0	my-index	2	side-post	4	
+7	lp	1	0	0	my-index	2	content	0	
+8	course_overview	1	0	0	my-index	2	content	1	
+9	private_files	5	0	0	my-index	3	side-post	0	
+10	online_users	5	0	0	my-index	3	side-post	1	
+11	badges	5	0	0	my-index	3	side-post	2	
+12	calendar_month	5	0	0	my-index	3	side-post	3	
+13	calendar_upcoming	5	0	0	my-index	3	side-post	4	
+14	lp	5	0	0	my-index	3	content	0	
+15	course_overview	5	0	0	my-index	3	content	1	
++++++[END]++++ t = mdl_block_instances
+
+====[START]=== t = mdl_block_positions
++++++[END]++++ t = mdl_block_positions
+
+====[START]=== t = mdl_context
+instanceid
+0
+1
+1
+1
+1
+1
+2
+2
+2
+2
+3
+3
+3
+3
+4
+4
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
++++++[END]++++ t = mdl_context
+
+====[START]=== t = mdl_course_completion_criteria
++++++[END]++++ t = mdl_course_completion_criteria
+
+====[START]=== t = mdl_course_modules
+instance
+1
+1
+2
+2
++++++[END]++++ t = mdl_course_modules
+
+====[START]=== t = mdl_editor_atto_autosave
++++++[END]++++ t = mdl_editor_atto_autosave
+
+====[START]=== t = mdl_enrol_paypal
++++++[END]++++ t = mdl_enrol_paypal
+
+====[START]=== t = mdl_event
+instance
+1
+2
++++++[END]++++ t = mdl_event
+
+====[START]=== t = mdl_grade_items
+iteminstance
+1
+1
+2
+2
++++++[END]++++ t = mdl_grade_items
+
+====[START]=== t = mdl_grade_items_history
+iteminstance
+1
+1
+1
+1
+2
+2
+2
+2
++++++[END]++++ t = mdl_grade_items_history
+
+====[START]=== t = mdl_grading_instances
++++++[END]++++ t = mdl_grading_instances
+
+====[START]=== t = mdl_gradingform_guide_fillings
++++++[END]++++ t = mdl_gradingform_guide_fillings
+
+====[START]=== t = mdl_gradingform_rubric_fillings
++++++[END]++++ t = mdl_gradingform_rubric_fillings
+
+====[START]=== t = mdl_logstore_standard_log
+contextinstanceid
+0
+0
+2
+2
+2
+3
+4
+1
+1
+1
+1
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+4
++++++[END]++++ t = mdl_logstore_standard_log
+
+====[START]=== t = mdl_portfolio_instance
++++++[END]++++ t = mdl_portfolio_instance
+
+====[START]=== t = mdl_portfolio_instance_config
++++++[END]++++ t = mdl_portfolio_instance_config
+
+====[START]=== t = mdl_portfolio_instance_user
++++++[END]++++ t = mdl_portfolio_instance_user
+
+====[START]=== t = mdl_repository_instance_config
++++++[END]++++ t = mdl_repository_instance_config
+
+====[START]=== t = mdl_repository_instances
+id	name	typeid	userid	contextid	username	password	timecreated	timemodified	readonly
+1		1	0	1	NULL	NULL	1552595887	1552595887	0
+2		2	0	1	NULL	NULL	1552595887	1552595887	0
+3		3	0	1	NULL	NULL	1552595887	1552595887	0
+4		4	0	1	NULL	NULL	1552595887	1552595887	0
+5		5	0	1	NULL	NULL	1552595887	1552595887	0
+6		6	0	1	NULL	NULL	1552595887	1552595887	0
+7		7	0	1	NULL	NULL	1552595887	1552595887	0
++++++[END]++++ t = mdl_repository_instances
+
+====[START]=== t = mdl_tag_instance
++++++[END]++++ t = mdl_tag_instance
+
+====[START]=== t = mdl_tool_monitor_events
++++++[END]++++ t = mdl_tool_monitor_events
+
+====[START]=== t = mdl_user_private_key
++++++[END]++++ t = mdl_user_private_key
+
