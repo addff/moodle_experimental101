@@ -1,5 +1,5 @@
 #!/bin/sh
-filename="data05-enrollcourse-EXP101.txt"
+filename="data06-addcourse-EXP102.txt"
 d="experimental_101"
 echo "d =" $d
 touch $filename
