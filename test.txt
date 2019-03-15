@@ -47,3 +47,73 @@ instanceid
 15
 +++++[END]++++ t = mdl_context
 
+====[START]=== t = mdl_course_completion_criteria
++++++[END]++++ t = mdl_course_completion_criteria
+
+====[START]=== t = mdl_course_modules
++++++[END]++++ t = mdl_course_modules
+
+====[START]=== t = mdl_editor_atto_autosave
++++++[END]++++ t = mdl_editor_atto_autosave
+
+====[START]=== t = mdl_enrol_paypal
++++++[END]++++ t = mdl_enrol_paypal
+
+====[START]=== t = mdl_event
++++++[END]++++ t = mdl_event
+
+====[START]=== t = mdl_grade_items
++++++[END]++++ t = mdl_grade_items
+
+====[START]=== t = mdl_grade_items_history
++++++[END]++++ t = mdl_grade_items_history
+
+====[START]=== t = mdl_grading_instances
++++++[END]++++ t = mdl_grading_instances
+
+====[START]=== t = mdl_gradingform_guide_fillings
++++++[END]++++ t = mdl_gradingform_guide_fillings
+
+====[START]=== t = mdl_gradingform_rubric_fillings
++++++[END]++++ t = mdl_gradingform_rubric_fillings
+
+====[START]=== t = mdl_logstore_standard_log
+contextinstanceid
+0
+2
+2
+2
++++++[END]++++ t = mdl_logstore_standard_log
+
+====[START]=== t = mdl_portfolio_instance
++++++[END]++++ t = mdl_portfolio_instance
+
+====[START]=== t = mdl_portfolio_instance_config
++++++[END]++++ t = mdl_portfolio_instance_config
+
+====[START]=== t = mdl_portfolio_instance_user
++++++[END]++++ t = mdl_portfolio_instance_user
+
+====[START]=== t = mdl_repository_instance_config
++++++[END]++++ t = mdl_repository_instance_config
+
+====[START]=== t = mdl_repository_instances
+id	name	typeid	userid	contextid	username	password	timecreated	timemodified	readonly
+1		1	0	1	NULL	NULL	1552595887	1552595887	0
+2		2	0	1	NULL	NULL	1552595887	1552595887	0
+3		3	0	1	NULL	NULL	1552595887	1552595887	0
+4		4	0	1	NULL	NULL	1552595887	1552595887	0
+5		5	0	1	NULL	NULL	1552595887	1552595887	0
+6		6	0	1	NULL	NULL	1552595887	1552595887	0
+7		7	0	1	NULL	NULL	1552595887	1552595887	0
++++++[END]++++ t = mdl_repository_instances
+
+====[START]=== t = mdl_tag_instance
++++++[END]++++ t = mdl_tag_instance
+
+====[START]=== t = mdl_tool_monitor_events
++++++[END]++++ t = mdl_tool_monitor_events
+
+====[START]=== t = mdl_user_private_key
++++++[END]++++ t = mdl_user_private_key
+
