@@ -1,24 +1,7 @@
-instanceid
-0
-1
-1
-1
-1
-2
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
+====[START]=== t = mdl_assignment_upgrade
++++++[END]++++ t = mdl_assignment_upgrade
+
+====[START]=== t = mdl_block_instances
 id	blockname	parentcontextid	showinsubcontexts	requiredbytheme	pagetypepattern	subpagepattern	defaultregion	defaultweight	configdata
 1	admin_bookmarks	1	0	0	admin-*	NULL	side-pre	2	
 2	private_files	1	0	0	my-index	2	side-post	0	
@@ -35,6 +18,12 @@ id	blockname	parentcontextid	showinsubcontexts	requiredbytheme	pagetypepattern	s
 13	calendar_upcoming	5	0	0	my-index	3	side-post	4	
 14	lp	5	0	0	my-index	3	content	0	
 15	course_overview	5	0	0	my-index	3	content	1	
++++++[END]++++ t = mdl_block_instances
+
+====[START]=== t = mdl_block_positions
++++++[END]++++ t = mdl_block_positions
+
+====[START]=== t = mdl_context
 instanceid
 0
 1
@@ -56,3 +45,5 @@ instanceid
 13
 14
 15
++++++[END]++++ t = mdl_context
+
