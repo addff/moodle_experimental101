@@ -1,0 +1,58 @@
+instanceid
+0
+1
+1
+1
+1
+2
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+id	blockname	parentcontextid	showinsubcontexts	requiredbytheme	pagetypepattern	subpagepattern	defaultregion	defaultweight	configdata
+1	admin_bookmarks	1	0	0	admin-*	NULL	side-pre	2	
+2	private_files	1	0	0	my-index	2	side-post	0	
+3	online_users	1	0	0	my-index	2	side-post	1	
+4	badges	1	0	0	my-index	2	side-post	2	
+5	calendar_month	1	0	0	my-index	2	side-post	3	
+6	calendar_upcoming	1	0	0	my-index	2	side-post	4	
+7	lp	1	0	0	my-index	2	content	0	
+8	course_overview	1	0	0	my-index	2	content	1	
+9	private_files	5	0	0	my-index	3	side-post	0	
+10	online_users	5	0	0	my-index	3	side-post	1	
+11	badges	5	0	0	my-index	3	side-post	2	
+12	calendar_month	5	0	0	my-index	3	side-post	3	
+13	calendar_upcoming	5	0	0	my-index	3	side-post	4	
+14	lp	5	0	0	my-index	3	content	0	
+15	course_overview	5	0	0	my-index	3	content	1	
+instanceid
+0
+1
+1
+1
+1
+2
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
