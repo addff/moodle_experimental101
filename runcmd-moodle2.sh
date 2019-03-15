@@ -1,9 +1,39 @@
 #!/bin/sh
-filename="data07-enrollcourse-EXP102.txt"
+filename="data08-addsubmission-EXP101.txt"
 d="experimental_101"
 echo "d =" $d
 touch $filename
 echo $filename created!
+
+t="mdl_user"
+echo "====[START]=== t =" $t >> $filename
+mysql -uroot -ptoor -e "select * from $t" $d >> $filename
+echo "+++++[END]++++ t =" $t >> $filename
+echo "" >> $filename
+
+t="mdl_course"
+echo "====[START]=== t =" $t >> $filename
+mysql -uroot -ptoor -e "select * from $t" $d >> $filename
+echo "+++++[END]++++ t =" $t >> $filename
+echo "" >> $filename
+
+t="mdl_assign"
+echo "====[START]=== t =" $t >> $filename
+mysql -uroot -ptoor -e "select * from $t" $d >> $filename
+echo "+++++[END]++++ t =" $t >> $filename
+echo "" >> $filename
+
+t="mdl_assign_user_flags"
+echo "====[START]=== t =" $t >> $filename
+mysql -uroot -ptoor -e "select * from $t" $d >> $filename
+echo "+++++[END]++++ t =" $t >> $filename
+echo "" >> $filename
+
+t="mdl_assign_user_mapping"
+echo "====[START]=== t =" $t >> $filename
+mysql -uroot -ptoor -e "select * from $t" $d >> $filename
+echo "+++++[END]++++ t =" $t >> $filename
+echo "" >> $filename
 
 t="mdl_assignment_upgrade"
 echo "====[START]=== t =" $t >> $filename 
