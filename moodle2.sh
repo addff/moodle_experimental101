@@ -7,5 +7,5 @@ echo $filename created!
 
 t="mdl_assignment_upgrade"
 echo "t =" $t
-mysql -uroot -ptoor -e "select (select oldinstance from $t) as oldinstance, (select newinstance from $t) as newinstanc" $d >> $filename 
+mysql -uroot -ptoor -e "select oldinstance, newinstance from $t) as newinstanc" $d >> $filename 
 
