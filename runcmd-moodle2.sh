@@ -1,5 +1,5 @@
 #!/bin/sh
-filename="data01-freshinstall.txt"
+filename="data02-adduser-teacher1.txt"
 d="experimental_101"
 echo "d =" $d
 touch $filename
