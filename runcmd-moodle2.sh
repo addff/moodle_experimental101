@@ -1,5 +1,5 @@
 #!/bin/sh
-filename="data10-allrec.txt"
+filename="data11-allrec-ccc.txt"
 d="experimental_101"
 echo "d =" $d
 touch $filename
