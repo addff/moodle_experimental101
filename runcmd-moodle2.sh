@@ -1,5 +1,5 @@
 #!/bin/sh
-filename="data11-allrec-ccc.txt"
+filename="data12-allrec-ccc-turneditingoff.txt"
 d="experimental_101"
 echo "d =" $d
 touch $filename
